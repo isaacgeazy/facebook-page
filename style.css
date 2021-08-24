@@ -88,6 +88,8 @@ body {
 .box-2>.login> a{
     
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
     
 }
 /* box do escrito */

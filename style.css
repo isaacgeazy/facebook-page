@@ -9,9 +9,7 @@ body {
     background-color: whitesmoke;
 }
 
-.clear {
-    clear: both;
-}
+
 
 /* conteudo - as boxes pra ficarem alinhadas*/
 
@@ -51,13 +49,14 @@ body {
     text-align: center;
 }
 
-.box-2>.login input[type=text] {
+.box-2>.login input[type="text"] {
     margin-top: 5px;
     margin-bottom: 12px;
     width: 90%;
     height: 40px;
     padding: 0px 5px;
     border-radius: 5px;
+    
 
 }
 
@@ -87,7 +86,7 @@ body {
     width: 40%;
     height: 43px;
     border-radius: 5px;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 10px;
     background-color: #42b72a;
     font-size: 16px;
@@ -95,6 +94,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     border: 1px solid #42b72a;
+    
 }
 
 .box-2 .login .newacc input:hover {
@@ -106,7 +106,12 @@ body {
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: blue;
+    margin-top: 10px;
+    
 
+}
+.box-2 .login hr{
+    margin-top: 20px;
 }
 
 /* box do escrito */
